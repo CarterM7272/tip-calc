@@ -12,18 +12,22 @@ body {
 }
 
 #container {
-  background-color: rgba(183, 190, 190, 0.456);
   padding: 40px;
   width: 900px;
   height: 800px;
   border-radius: 50px;
 }
 
-input {
-  margin-top: 10px;
+#container * {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-h1, h3, label {
+input {
+  padding-left: 10px;
+}
+
+h1, h3 {
   margin-top: 30px;
 }
 
@@ -36,7 +40,6 @@ h1, h3, label {
 #tipPercent {
   display: block;
   width: 80%;
-  margin-top: 10px;
   height: 40px;
 }
 
@@ -52,4 +55,9 @@ h1, h3, label {
 
 #calcBtn:hover {
   background-color: green;
+}
+
+.error {
+  color: red;
+  display: block;
 }
